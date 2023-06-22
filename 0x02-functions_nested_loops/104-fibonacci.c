@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
-* main - fibonacci <3
-**
-Purpose - no hardcode
-**
-Return: (Success)
+*main - prints the first 98 Fibonacci numbers, starting with 1 and 2
+*Purpose - no hardcode
+*Return: 0(Success)
 */
 int main(void)
 {

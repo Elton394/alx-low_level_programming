@@ -8,21 +8,28 @@
 */
 int main(void)
 {
-int i;
-
-for (i = 1; i <= 100; i++)
+int n;
+n = 1;
+printf("%d", n);
+for (n = 2; n <= 100; n++)
 {
-if (i % 15 == 0)
-printf("FizzBuzz");
-else if (i % 3 == 0)
-printf("Fizz");
-else if (i % 5 == 0)
-printf("Buzz");
-else
-printf("%i", i);
-if (i < 100)
-printf(" ");
+if ((n % 3 == 0) && (n % 5 == 0))
+{
+printf(" FizzBuzz");
 }
-printf("\n ");
+else if (n % 3 == 0)
+{
+printf(" Fizz");
+}
+else if (n % 5 == 0)
+{
+printf(" Buzz");
+}
+else
+{
+printf(" %d", n);
+}
+}
+printf("\n");
 return (0);
 }
